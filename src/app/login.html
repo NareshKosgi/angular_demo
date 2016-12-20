@@ -1,0 +1,49 @@
+<div class="col-md-8">
+                <div class="alert alert-success fade in alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <strong>Welcome Naresh!</strong> As noted in your email, your amount due to $500. Please <i>Login</i> or <i>Proceed as Guest</i> to pay your portion.
+                </div>
+
+			<!-- Login-Form -->
+            <form action="" method="post" id="sky-form1" class="sky-form">
+                <header>Login to your Yomigo account</header>
+
+                <fieldset>
+                    <section>
+                        <div class="row">
+                            <label class="label_100">E-mail</label>
+                            <div class="col col-11">
+                                <label class="input">
+                                    <i class="icon-append fa fa-user"></i>
+                                    <input type="email" name="email">
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="row">
+                            <label class="label_100">Password</label>
+                            <div class="col col-11">
+                                <label class="input">
+                                    <i class="icon-append fa fa-lock"></i>
+                                    <input type="password" name="password">
+                                </label>
+                                <div class="note"><a href="#sky-form2" class="modal-opener">Forgot password?</a></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="row">
+                            <div class="col col-4">
+                                <label class="checkbox"><input type="checkbox" name="remember_me"><i></i>Keep me logged in</label>
+                            </div>
+                        </div>
+                    </section>
+                </fieldset>
+                 <button type="submit" class="btn-u">Log in</button>
+                 <a href="/payment/1" class="btn-u btn-u-default" style="width: 49%;">Continue as guest</a>
+                        <button type="button" class="btn-u btn-u-default pull-right" data-toggle="modal" data-target="#register-form-modal" style="width: 49%;">Register</button>
+            </form>
+</div>

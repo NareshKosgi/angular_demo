@@ -1,0 +1,354 @@
+/* Add here all your css styles (customizations) */
+
+* {font-family: 'Roboto', sans-serif; letter-spacing: .5px;}
+
+.container-fluid {
+    margin-top: 2.5%; margin-bottom: 2.5%;
+}
+
+.btn-u {
+    width: 100%;
+    margin: 1% 0% 0% 1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.breadcrumbs {text-align: center;}
+
+.notification_area {
+    width: 90%;
+    height: auto;
+    min-height: 5%;
+    border: solid 5px #59B795;
+    text-align: center;
+    display: inline-block;
+    padding: 1%;
+}
+
+.notification_area h1 {
+    font-size: 3em;
+    font-weight: 900;
+    color: #324C80;
+}
+
+.notification_area h2 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #324C80;
+}
+
+.notification_area h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #324C80;
+}
+
+
+.purchase_info_box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    background-color: #4A4A4A;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    font-weight: 300;
+    font-size: .9em;
+    margin-bottom: 5%;
+
+}
+
+.pib_img {
+    width: 98%;
+    height: auto;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    border: 1px #FFF solid;
+
+}
+
+.pib_merchant {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 2% 0% 2% 0%;
+    color: #FFF;
+    font-size: 1em;
+}
+
+.pib_merchant_info {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+    clear: right;
+    margin: 0% 0% 0% 2%;
+}
+
+.pib_merchant_header_title strong {font-weight: 700; font-size: 1.25em;}
+
+.pib_merchant_avatar {
+    width: 100%;
+    max-width: 65px;
+    height: auto;
+    vertical-align: top;
+    float: left;
+}
+
+.pib_merchant_header_title {
+    font-size: 1.25em;
+    margin: 0% 0% 10% 0%;
+}
+
+.label_100 {
+    width: 100%;
+    font-weight: 300;
+    margin-left: 2.5%;
+    text-transform: uppercase;
+    }
+
+.label_3col {
+    width: 66%;
+    font-weight: 300;
+    margin-left: 2.5%;
+    text-transform: uppercase;
+}
+
+
+.btn-u  {
+    padding: 1.5%;
+    font-weight: 900;
+    font-size: 1.25em;
+}
+
+.back_link {
+    font-size: .8em;
+    margin: 10% 0% 0% 0%;
+    text-align: left;
+    color: #324C80;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+hr.hr_yomigo {
+    width:97%;
+    border-top: solid 1px #59B795;
+    text-align: center;
+    margin: 1%
+}
+
+.add_person {color: #4765a0; font-weight: 700; text-decoration: none;}
+.add_person:hover {font-weight: 700; text-decoration: none;}
+
+.SplitSum_GroupMem {
+
+    width: 98%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 1%;
+    margin: 2% 0% 2% 0%;
+}
+
+.SplitSum_Ava {
+
+    width: 86px;
+    height: 86px;
+    border-radius: 50px;
+    float: left;
+}
+
+.SplitSum_PartyInfo {
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    vertical-align: bottom;
+    padding: 3% 0% 1% 2%;
+}
+
+.SplitSum_PartyInfo h4 {font-weight: 900; line-height: 10px;}
+.SplitSum_PartyInfo h5 {font-weight: 400; font-size: 1em; color: #999;}
+
+.SplitSum_divider {
+    float: left;
+    border-left: solid 1px #999;
+    height: 60px;
+    width: 1px;
+    margin:  2% 2.5% 0% 2.5%;
+}
+
+.SplitSum_MemberTotal {
+    float: left;
+    padding: 2% 0% 1% 2%;
+    text-align: left;
+    display: inline-block;
+}
+
+    .SplitSum_MemberTotal h4 {
+        font-weight: 900; line-height: 10px; color: #324C80; font-size: 2em; }
+
+    .SplitSum_MemberTotal h5 {font-weight: 400; font-size: 1em; color: #999;}
+
+
+.vertical_rule {
+    width: 1px;
+    height: 100%;
+    min-height: 450px;
+    background-color: #000;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 10%;
+}
+
+
+.AccountActivity_Sidebar {
+    text-align: right;
+    font-size: 1.5em;
+    padding: 0%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 12%;
+    font-weight: 700;
+    color: #59B795;
+}
+
+.AccountActivity_header {
+    font-weight: 500;
+}
+
+.AccountActivity_header h3 {
+    font-weight: 900;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    line-height: .7em;
+}
+
+.AccountActivity_hr {
+    width:100%;
+    border-top: solid 1px #000;
+    text-align: center;
+    margin: 15px 0px 10px 0px;
+}
+
+th {padding: 2%; font-weight: 300; font-size: 1.25em;}
+
+.AA_digit, .AA_time, .AA_item {}
+
+.PayStatus_area {
+    margin: 0% 0% 5% 5%;
+}
+
+.PayStatus_area p {
+    margin: 0% 25% 5% 5%;
+}
+
+
+.PayStatus_table {
+    margin: 0% 0% 5% 0%;
+}
+
+.PayStatus_name {
+    padding: 0% 0% 0% 0%;
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+    border-bottom: solid 1px #FFF; border-right: solid 1px #333;
+    font-weight: 700;
+}
+.PayStatus_due {
+    padding: 0% 0% 0% 4%;
+    width: 25%;
+    min-width: 50px;
+    max-width: 55px;
+    border-bottom: solid 1px #FFF; border-right: solid 1px #333;
+    font-weight: 700;
+}
+.PayStatus_status {
+    padding: 2.5% 0% 2.5% 4%;
+    width: 25%;
+    min-width: 50px;
+    max-width: 55px;
+    border-bottom: solid 1px #FFF;
+    font-weight: 700;
+}
+
+.PayStatus_name_h {
+    padding: 0% 0% 0% 0%;
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+    border-bottom: solid 1px #333; border-right: solid 1px #333;
+    font-weight: 300;
+}
+.PayStatus_due_h {
+    padding: 0% 8% 0% 4%;
+    width: 25%;
+    min-width: 50px;
+    max-width: 55px;
+    border-bottom: solid 1px #333; border-right: solid 1px #333;
+    font-weight: 300;
+}
+.PayStatus_status_h {
+    padding: 2.5% 0% 2.5% 4%;
+    width: 25%;
+    min-width: 50px;
+    max-width: 55px;
+    border-bottom: solid 1px #333;
+    font-weight: 300;
+}
+
+
+.PayComplete_reciept {
+    border-right: 1px solid #000;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    line-height: 3.5em;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.PayComplete_left {
+    text-align:right;
+    vertical-align:top;
+    padding: 0 20px 0 20px;
+}
+
+.PayComplete_right {
+    text-align:left;
+    vertical-align:top;
+    font-weight: 700;
+}
+
+.PayComplete_PassHead {
+    text-align: center;
+    display: inline-block;
+    font-weight: 500;
+    color: #59B795;
+    font-size: 2em;
+}
+
+.PayComplete_confirmation {
+    text-align: center;
+    font-weight: 700;
+    color: #324C80;
+    font-size: 1.15em;
+}
+
+.PayStatus_completehead {
+    text-align: center;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 1.8em;
+    color: #324C80;
+    margin: 0% 0% 3% 0%;
+}
