@@ -12,6 +12,7 @@
 /.idea
 /.vscode
 .project
+.editorconfig
 .classpath
 *.launch
 .settings/
